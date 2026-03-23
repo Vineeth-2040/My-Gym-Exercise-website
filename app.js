@@ -99,11 +99,7 @@ const cycle1 = `
             </div>
           </div>
           <div class="exercise-card">
-            <h4>plank</h4>
-            <div class="exercise-meta">
-              <div class="exercise-sets"><p>Sets: 3</p></div>
-              <div class="exercise-reps"><p>Reps: 45 sec</p></div>
-            </div>
+   
           </div>
         </div>
       </section>
