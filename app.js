@@ -520,18 +520,4 @@ function refreshAllOpenHeights() {
     });
 }
 
-function getCollapsibleDepth(element) {
-  let depth = 0;
-  let currentParent = element.parentElement.closest(".collapsible-content");
 
-  while (currentParent) {
-    depth += 1;
-    currentParent = currentParent.parentElement.closest(".collapsible-content");
-  }
-
-  return depth;
-}
-
-window.addEventListener("resize", () => {
-  refreshAllOpenHeights();
-});
