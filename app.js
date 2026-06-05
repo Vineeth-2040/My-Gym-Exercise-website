@@ -75,7 +75,8 @@ const cycle1 = `
       </section>
 
       <section class="day-card">
-        <h3>Day 3: Leg/Core</h3>
+        <h3>Day 3: Leg+Core</h3>
+
         <div class="exercise-list">
           <div class="exercise-card">
             <h4>Back squats</h4>
@@ -84,23 +85,63 @@ const cycle1 = `
               <div class="exercise-reps"><p>Reps: 8</p></div>
             </div>
           </div>
+
           <div class="exercise-card">
-            <h4>calves extension</h4>
+            <h4>Leg press</h4>
             <div class="exercise-meta">
               <div class="exercise-sets"><p>Sets: 3</p></div>
               <div class="exercise-reps"><p>Reps: 12</p></div>
             </div>
           </div>
+
           <div class="exercise-card">
-            <h4>decline situps</h4>
+            <h4>Lying leg curl</h4>
             <div class="exercise-meta">
               <div class="exercise-sets"><p>Sets: 3</p></div>
-              <div class="exercise-reps"><p>Reps: 10</p></div>
+              <div class="exercise-reps"><p>Reps: 12</p></div>
             </div>
           </div>
+
           <div class="exercise-card">
-   
+            <h4>Calf raises</h4>
+            <div class="exercise-meta">
+              <div class="exercise-sets"><p>Sets: 3</p></div>
+              <div class="exercise-reps"><p>Reps: 15</p></div>
+            </div>
           </div>
+
+          <div class="exercise-card">
+            <h4>Decline situps</h4>
+            <div class="exercise-meta">
+              <div class="exercise-sets"><p>Sets: 3</p></div>
+              <div class="exercise-reps"><p>Reps: 15</p></div>
+            </div>
+          </div>
+
+          <div class="exercise-card">
+            <h4>Hanging leg raise</h4>
+            <div class="exercise-meta">
+              <div class="exercise-sets"><p>Sets: 3</p></div>
+              <div class="exercise-reps"><p>Reps: 12</p></div>
+            </div>
+          </div>
+
+          <div class="exercise-card">
+            <h4>Russian-twist</h4>
+            <div class="exercise-meta">
+              <div class="exercise-sets"><p>Sets: 3</p></div>
+              <div class="exercise-reps"><p>Reps: 12</p></div>
+            </div>
+          </div>
+
+          <div class="exercise-card">
+            <h4>Plank-hold</h4>
+            <div class="exercise-meta">
+              <div class="exercise-sets"><p>Sets: 3</p></div>
+              <div class="exercise-reps"><p>Reps: 30</p></div>
+            </div>
+          </div>
+
         </div>
       </section>
     </div>
@@ -182,36 +223,50 @@ const cycle2 = `
       </section>
 
       <section class="day-card">
-        <h3>Day 3: Leg/Core</h3>
+        <h3>Day 3:Pure core</h3>
         <div class="exercise-list">
+
           <div class="exercise-card">
-            <h4>leg press</h4>
-            <div class="exercise-meta">
-              <div class="exercise-sets"><p>Sets: 4</p></div>
-              <div class="exercise-reps"><p>Reps: 8</p></div>
-            </div>
-          </div>
-          <div class="exercise-card">
-            <h4>lying leg down</h4>
+            <h4>Cable crunch</h4>
             <div class="exercise-meta">
               <div class="exercise-sets"><p>Sets: 3</p></div>
               <div class="exercise-reps"><p>Reps: 12</p></div>
             </div>
           </div>
+
           <div class="exercise-card">
-            <h4>lateral lunge</h4>
+            <h4>Side plank hip dip</h4>
+            <div class="exercise-meta">
+              <div class="exercise-sets"><p>Sets: 3</p></div>
+              <div class="exercise-reps"><p>Reps: 12</p></div>
+            </div>
+          </div>
+
+          <div class="exercise-card">
+            <h4>Ab wheel rollout </h4>
             <div class="exercise-meta">
               <div class="exercise-sets"><p>Sets: 3</p></div>
               <div class="exercise-reps"><p>Reps: 15</p></div>
             </div>
           </div>
+
           <div class="exercise-card">
-            <h4>roman chair</h4>
+            <h4>Bicycle crunches </h4>
             <div class="exercise-meta">
               <div class="exercise-sets"><p>Sets: 3</p></div>
               <div class="exercise-reps"><p>Reps: 20</p></div>
             </div>
           </div>
+
+
+          <div class="exercise-card">
+            <h4> lying leg raise</h4>
+            <div class="exercise-meta">
+              <div class="exercise-sets"><p>Sets: 3</p></div>
+              <div class="exercise-reps"><p>Reps: 20</p></div>
+            </div>
+          </div>
+
         </div>
       </section>
     </div>
@@ -292,37 +347,71 @@ const cycle3 = `
         </div>
       </section>
 
-      <section class="day-card">
+<section class="day-card">
         <h3>Day 3: Leg/Core</h3>
         <div class="exercise-list">
           <div class="exercise-card">
-            <h4>bicycle crunches</h4>
+            <h4>leg press</h4>
             <div class="exercise-meta">
               <div class="exercise-sets"><p>Sets: 4</p></div>
-              <div class="exercise-reps"><p>Reps: 8</p></div>
-            </div>
-          </div>
-          <div class="exercise-card">
-            <h4>side plank hip dip</h4>
-            <div class="exercise-meta">
-              <div class="exercise-sets"><p>Sets: 3</p></div>
               <div class="exercise-reps"><p>Reps: 10</p></div>
             </div>
           </div>
           <div class="exercise-card">
-            <h4>Russian twist</h4>
+            <h4>romanian deadlift</h4>
             <div class="exercise-meta">
               <div class="exercise-sets"><p>Sets: 3</p></div>
               <div class="exercise-reps"><p>Reps: 12</p></div>
             </div>
           </div>
           <div class="exercise-card">
-            <h4>bicycle crunches</h4>
+            <h4>lateral lunge</h4>
             <div class="exercise-meta">
               <div class="exercise-sets"><p>Sets: 3</p></div>
               <div class="exercise-reps"><p>Reps: 15</p></div>
             </div>
           </div>
+
+          <div class="exercise-card">
+            <h4>calf raises</h4>
+            <div class="exercise-meta">
+              <div class="exercise-sets"><p>Sets: 3</p></div>
+              <div class="exercise-reps"><p>Reps: 15</p></div>
+            </div>
+          </div>
+
+          <div class="exercise-card">
+            <h4>Weighted crunch</h4>
+            <div class="exercise-meta">
+              <div class="exercise-sets"><p>Sets: 3</p></div>
+              <div class="exercise-reps"><p>Reps: 12</p></div>
+            </div>
+          </div>
+
+          <div class="exercise-card">
+            <h4>Lying leg raise</h4>
+            <div class="exercise-meta">
+              <div class="exercise-sets"><p>Sets: 3</p></div>
+              <div class="exercise-reps"><p>Reps: 40s</p></div>
+            </div>
+          </div>
+
+          <div class="exercise-card">
+            <h4>Roman chair</h4>
+            <div class="exercise-meta">
+              <div class="exercise-sets"><p>Sets: 3</p></div>
+              <div class="exercise-reps"><p>Reps: 40s</p></div>
+            </div>
+          </div>
+
+          <div class="exercise-card">
+            <h4>Side plank hip dip </h4>
+            <div class="exercise-meta">
+              <div class="exercise-sets"><p>Sets: 3</p></div>
+              <div class="exercise-reps"><p>Reps: 40s</p></div>
+            </div>
+          </div>
+
         </div>
       </section>
     </div>
@@ -404,34 +493,41 @@ const cycle4 = `
       </section>
 
       <section class="day-card">
-        <h3>Day 3: Leg/Core</h3>
+        <h3>Day 3: Core</h3>
         <div class="exercise-list">
           <div class="exercise-card">
-            <h4>leg press</h4>
+            <h4>hanging leg raise</h4>
             <div class="exercise-meta">
-              <div class="exercise-sets"><p>Sets: 4</p></div>
+              <div class="exercise-sets"><p>Sets: 3</p></div>
+              <div class="exercise-reps"><p>Reps: 12</p></div>
+            </div>
+          </div>
+          <div class="exercise-card">
+            <h4>russian twist weighted</h4>
+            <div class="exercise-meta">
+              <div class="exercise-sets"><p>Sets: 3</p></div>
+              <div class="exercise-reps"><p>Reps: 12</p></div>
+            </div>
+          </div>
+          <div class="exercise-card">
+            <h4>ab wheel rollout</h4>
+            <div class="exercise-meta">
+              <div class="exercise-sets"><p>Sets: 3</p></div>
               <div class="exercise-reps"><p>Reps: 10</p></div>
             </div>
           </div>
           <div class="exercise-card">
-            <h4>lying leg raise</h4>
-            <div class="exercise-meta">
-              <div class="exercise-sets"><p>Sets: 3</p></div>
-              <div class="exercise-reps"><p>Reps: 12</p></div>
-            </div>
-          </div>
-          <div class="exercise-card">
-            <h4>Hanging leg raises</h4>
-            <div class="exercise-meta">
-              <div class="exercise-sets"><p>Sets: 3</p></div>
-              <div class="exercise-reps"><p>Reps: 12</p></div>
-            </div>
-          </div>
-          <div class="exercise-card">
-            <h4>plank</h4>
+            <h4>bicycle crunches</h4>
             <div class="exercise-meta">
               <div class="exercise-sets"><p>Sets: 3</p></div>
               <div class="exercise-reps"><p>Reps: 20</p></div>
+            </div>
+          </div>
+          <div class="exercise-card">
+            <h4>plank hold</h4>
+            <div class="exercise-meta">
+              <div class="exercise-sets"><p>Sets: 3</p></div>
+              <div class="exercise-reps"><p>Reps: 45s</p></div>
             </div>
           </div>
         </div>
