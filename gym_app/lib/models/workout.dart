@@ -1,7 +1,7 @@
 class Exercise {
-  final String name;
-  final String sets;
-  final String reps;
+  String name;
+  String sets;
+  String reps;
   bool isCompleted;
 
   Exercise({
@@ -10,32 +10,88 @@ class Exercise {
     required this.reps,
     this.isCompleted = false,
   });
+
+  Map<String, dynamic> toJson() {
+    return {
+      'name': name,
+      'sets': sets,
+      'reps': reps,
+      'isCompleted': isCompleted,
+    };
+  }
+
+  factory Exercise.fromJson(Map<String, dynamic> json) {
+    return Exercise(
+      name: json['name'] as String,
+      sets: json['sets'] as String,
+      reps: json['reps'] as String,
+      isCompleted: json['isCompleted'] as bool? ?? false,
+    );
+  }
 }
 
 class WorkoutDay {
-  final String name;
-  final List<Exercise> exercises;
+  String name;
+  List<Exercise> exercises;
   bool isExpanded;
 
   WorkoutDay({
     required this.name,
     required this.exercises,
-    this.isExpanded = true, // expanded by default
+    this.isExpanded = true,
   });
+
+  Map<String, dynamic> toJson() {
+    return {
+      'name': name,
+      'exercises': exercises.map((e) => e.toJson()).toList(),
+      'isExpanded': isExpanded,
+    };
+  }
+
+  factory WorkoutDay.fromJson(Map<String, dynamic> json) {
+    return WorkoutDay(
+      name: json['name'] as String,
+      exercises: (json['exercises'] as List<dynamic>)
+          .map((e) => Exercise.fromJson(e as Map<String, dynamic>))
+          .toList(),
+      isExpanded: json['isExpanded'] as bool? ?? true,
+    );
+  }
 }
 
 class Cycle {
-  final String name;
-  final String note;
-  final List<WorkoutDay> days;
+  String name;
+  String note;
+  List<WorkoutDay> days;
   bool isExpanded;
 
   Cycle({
     required this.name,
     required this.note,
     required this.days,
-    this.isExpanded = true, // expanded by default
+    this.isExpanded = true,
   });
+
+  Map<String, dynamic> toJson() {
+    return {
+      'name': name,
+      'note': note,
+      'days': days.map((d) => d.toJson()).toList(),
+      'isExpanded': isExpanded,
+    };
+  }
+
+  factory Cycle.fromJson(Map<String, dynamic> json) {
+    return Cycle(
+      name: json['name'] as String,
+      note: json['note'] as String,
+      days: (json['days'] as List<dynamic>)
+          .map((d) => WorkoutDay.fromJson(d as Map<String, dynamic>))
+          .toList(),
+      isExpanded: json['isExpanded'] as bool? ?? true,
+    );
+  }
 }
 
 // Global data list recreated from app.js

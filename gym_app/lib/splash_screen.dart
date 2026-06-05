@@ -109,12 +109,12 @@ class _SplashScreenState extends State<SplashScreen> with SingleTickerProviderSt
                       ],
                     ),
                     child: const Text(
-                      'GYM',
+                      'GYM GUYS',
                       style: TextStyle(
                         fontFamily: AppTheme.fontFamily,
-                        fontSize: 64.0,
+                        fontSize: 48.0,
                         fontWeight: FontWeight.w900,
-                        letterSpacing: 6.0,
+                        letterSpacing: 4.0,
                         color: AppTheme.accentDeep,
                       ),
                     ),
@@ -131,7 +131,7 @@ class _SplashScreenState extends State<SplashScreen> with SingleTickerProviderSt
                   ),
                   const SizedBox(height: 12),
                   const Text(
-                    'CYCLE PLANNER',
+                    'WORKOUT PLANNER',
                     style: TextStyle(
                       fontFamily: AppTheme.fontFamily,
                       fontSize: 12.0,
